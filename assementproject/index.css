@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#fi{
+  
+  width: 100%;
+  margin-top:75px;
+  height: 200px;
+}
+
+#fs{
+  
+  width: 100%;
+  margin-top:75px;
+  height: 200px;
+}
+
+#ft{
+  
+  width: 100%;
+  margin-top:75px;
+  height: 200px;
+}
+
+
+#p{
+  align-items: center;
+  justify-content: center;
+  
+}
+body {
+  background-image: url("background.jpg");
+  background-repeat: repeat;
+}
+#my {
+  color: aqua;
+  background-color: blueviolet;
+  border-radius: 50%;
+}
+#main {
+ margin-left: 100px;
+  
+  
+  
+  display: flex;
+  flex-wrap: wrap;
+ 
+
+  text-align: center;
+  max-width: 1200px;
+  flex-direction: row;
+  /* Center the container in middle on horizontal axis */
+ 
+
+  /* Add empty space above the container (20% of the view height) */
+  margin-top: 10vh;
+}
+#home {
+  background-color: pink;
+}
